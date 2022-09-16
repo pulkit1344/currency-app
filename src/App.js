@@ -6,7 +6,7 @@ import { ClipLoader } from "react-spinners";
 const BASE_URL = "http://localhost:4000/currency-converter";
 
 function App() {
-  const [currencyOptions, setcurrencyOptions] = useState(["AUD", "INR"]);
+  const [currencyOptions, setcurrencyOptions] = useState(["AUD", "INR","USD"]);
   const [fromCurrency, setfromCurrency] = useState("AUD");
   const [toCurrency, setToCurrency] = useState("INR");
   const [amount, setAmount] = useState(0);
